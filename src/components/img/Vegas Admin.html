@@ -1,0 +1,1002 @@
+<!DOCTYPE html>
+<!-- saved from url=(0115)http://localhost:3000/admin/bilhetes?start=2022-01-01&end=2023-12-31&sorteio=1&cartela=1&controle=1&status=premiado -->
+<html lang="en"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><style type="text/css">:root, :host {
+  --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Solid";
+  --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Regular";
+  --fa-font-light: normal 300 1em/1 "Font Awesome 6 Light";
+  --fa-font-thin: normal 100 1em/1 "Font Awesome 6 Thin";
+  --fa-font-duotone: normal 900 1em/1 "Font Awesome 6 Duotone";
+  --fa-font-sharp-solid: normal 900 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-regular: normal 400 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-sharp-light: normal 300 1em/1 "Font Awesome 6 Sharp";
+  --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands";
+}
+
+svg:not(:root).svg-inline--fa, svg:not(:host).svg-inline--fa {
+  overflow: visible;
+  box-sizing: content-box;
+}
+
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+}
+.svg-inline--fa.fa-2xs {
+  vertical-align: 0.1em;
+}
+.svg-inline--fa.fa-xs {
+  vertical-align: 0em;
+}
+.svg-inline--fa.fa-sm {
+  vertical-align: -0.0714285705em;
+}
+.svg-inline--fa.fa-lg {
+  vertical-align: -0.2em;
+}
+.svg-inline--fa.fa-xl {
+  vertical-align: -0.25em;
+}
+.svg-inline--fa.fa-2xl {
+  vertical-align: -0.3125em;
+}
+.svg-inline--fa.fa-pull-left {
+  margin-right: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-pull-right {
+  margin-left: var(--fa-pull-margin, 0.3em);
+  width: auto;
+}
+.svg-inline--fa.fa-li {
+  width: var(--fa-li-width, 2em);
+  top: 0.25em;
+}
+.svg-inline--fa.fa-fw {
+  width: var(--fa-fw-width, 1.25em);
+}
+
+.fa-layers svg.svg-inline--fa {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.fa-layers-counter, .fa-layers-text {
+  display: inline-block;
+  position: absolute;
+  text-align: center;
+}
+
+.fa-layers {
+  display: inline-block;
+  height: 1em;
+  position: relative;
+  text-align: center;
+  vertical-align: -0.125em;
+  width: 1em;
+}
+.fa-layers svg.svg-inline--fa {
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-text {
+  left: 50%;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+
+.fa-layers-counter {
+  background-color: var(--fa-counter-background-color, #ff253a);
+  border-radius: var(--fa-counter-border-radius, 1em);
+  box-sizing: border-box;
+  color: var(--fa-inverse, #fff);
+  line-height: var(--fa-counter-line-height, 1);
+  max-width: var(--fa-counter-max-width, 5em);
+  min-width: var(--fa-counter-min-width, 1.5em);
+  overflow: hidden;
+  padding: var(--fa-counter-padding, 0.25em 0.5em);
+  right: var(--fa-right, 0);
+  text-overflow: ellipsis;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-counter-scale, 0.25));
+          transform: scale(var(--fa-counter-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-bottom-right {
+  bottom: var(--fa-bottom, 0);
+  right: var(--fa-right, 0);
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom right;
+          transform-origin: bottom right;
+}
+
+.fa-layers-bottom-left {
+  bottom: var(--fa-bottom, 0);
+  left: var(--fa-left, 0);
+  right: auto;
+  top: auto;
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: bottom left;
+          transform-origin: bottom left;
+}
+
+.fa-layers-top-right {
+  top: var(--fa-top, 0);
+  right: var(--fa-right, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top right;
+          transform-origin: top right;
+}
+
+.fa-layers-top-left {
+  left: var(--fa-left, 0);
+  right: auto;
+  top: var(--fa-top, 0);
+  -webkit-transform: scale(var(--fa-layers-scale, 0.25));
+          transform: scale(var(--fa-layers-scale, 0.25));
+  -webkit-transform-origin: top left;
+          transform-origin: top left;
+}
+
+.fa-1x {
+  font-size: 1em;
+}
+
+.fa-2x {
+  font-size: 2em;
+}
+
+.fa-3x {
+  font-size: 3em;
+}
+
+.fa-4x {
+  font-size: 4em;
+}
+
+.fa-5x {
+  font-size: 5em;
+}
+
+.fa-6x {
+  font-size: 6em;
+}
+
+.fa-7x {
+  font-size: 7em;
+}
+
+.fa-8x {
+  font-size: 8em;
+}
+
+.fa-9x {
+  font-size: 9em;
+}
+
+.fa-10x {
+  font-size: 10em;
+}
+
+.fa-2xs {
+  font-size: 0.625em;
+  line-height: 0.1em;
+  vertical-align: 0.225em;
+}
+
+.fa-xs {
+  font-size: 0.75em;
+  line-height: 0.0833333337em;
+  vertical-align: 0.125em;
+}
+
+.fa-sm {
+  font-size: 0.875em;
+  line-height: 0.0714285718em;
+  vertical-align: 0.0535714295em;
+}
+
+.fa-lg {
+  font-size: 1.25em;
+  line-height: 0.05em;
+  vertical-align: -0.075em;
+}
+
+.fa-xl {
+  font-size: 1.5em;
+  line-height: 0.0416666682em;
+  vertical-align: -0.125em;
+}
+
+.fa-2xl {
+  font-size: 2em;
+  line-height: 0.03125em;
+  vertical-align: -0.1875em;
+}
+
+.fa-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.fa-ul {
+  list-style-type: none;
+  margin-left: var(--fa-li-margin, 2.5em);
+  padding-left: 0;
+}
+.fa-ul > li {
+  position: relative;
+}
+
+.fa-li {
+  left: calc(var(--fa-li-width, 2em) * -1);
+  position: absolute;
+  text-align: center;
+  width: var(--fa-li-width, 2em);
+  line-height: inherit;
+}
+
+.fa-border {
+  border-color: var(--fa-border-color, #eee);
+  border-radius: var(--fa-border-radius, 0.1em);
+  border-style: var(--fa-border-style, solid);
+  border-width: var(--fa-border-width, 0.08em);
+  padding: var(--fa-border-padding, 0.2em 0.25em 0.15em);
+}
+
+.fa-pull-left {
+  float: left;
+  margin-right: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-pull-right {
+  float: right;
+  margin-left: var(--fa-pull-margin, 0.3em);
+}
+
+.fa-beat {
+  -webkit-animation-name: fa-beat;
+          animation-name: fa-beat;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-bounce {
+  -webkit-animation-name: fa-bounce;
+          animation-name: fa-bounce;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.28, 0.84, 0.42, 1));
+}
+
+.fa-fade {
+  -webkit-animation-name: fa-fade;
+          animation-name: fa-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-beat-fade {
+  -webkit-animation-name: fa-beat-fade;
+          animation-name: fa-beat-fade;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+          animation-timing-function: var(--fa-animation-timing, cubic-bezier(0.4, 0, 0.6, 1));
+}
+
+.fa-flip {
+  -webkit-animation-name: fa-flip;
+          animation-name: fa-flip;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, ease-in-out);
+          animation-timing-function: var(--fa-animation-timing, ease-in-out);
+}
+
+.fa-shake {
+  -webkit-animation-name: fa-shake;
+          animation-name: fa-shake;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-delay: var(--fa-animation-delay, 0s);
+          animation-delay: var(--fa-animation-delay, 0s);
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 2s);
+          animation-duration: var(--fa-animation-duration, 2s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, linear);
+          animation-timing-function: var(--fa-animation-timing, linear);
+}
+
+.fa-spin-reverse {
+  --fa-animation-direction: reverse;
+}
+
+.fa-pulse,
+.fa-spin-pulse {
+  -webkit-animation-name: fa-spin;
+          animation-name: fa-spin;
+  -webkit-animation-direction: var(--fa-animation-direction, normal);
+          animation-direction: var(--fa-animation-direction, normal);
+  -webkit-animation-duration: var(--fa-animation-duration, 1s);
+          animation-duration: var(--fa-animation-duration, 1s);
+  -webkit-animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+          animation-iteration-count: var(--fa-animation-iteration-count, infinite);
+  -webkit-animation-timing-function: var(--fa-animation-timing, steps(8));
+          animation-timing-function: var(--fa-animation-timing, steps(8));
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .fa-beat,
+.fa-bounce,
+.fa-fade,
+.fa-beat-fade,
+.fa-flip,
+.fa-pulse,
+.fa-shake,
+.fa-spin,
+.fa-spin-pulse {
+    -webkit-animation-delay: -1ms;
+            animation-delay: -1ms;
+    -webkit-animation-duration: 1ms;
+            animation-duration: 1ms;
+    -webkit-animation-iteration-count: 1;
+            animation-iteration-count: 1;
+    -webkit-transition-delay: 0s;
+            transition-delay: 0s;
+    -webkit-transition-duration: 0s;
+            transition-duration: 0s;
+  }
+}
+@-webkit-keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@keyframes fa-beat {
+  0%, 90% {
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  45% {
+    -webkit-transform: scale(var(--fa-beat-scale, 1.25));
+            transform: scale(var(--fa-beat-scale, 1.25));
+  }
+}
+@-webkit-keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@keyframes fa-bounce {
+  0% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  10% {
+    -webkit-transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+            transform: scale(var(--fa-bounce-start-scale-x, 1.1), var(--fa-bounce-start-scale-y, 0.9)) translateY(0);
+  }
+  30% {
+    -webkit-transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+            transform: scale(var(--fa-bounce-jump-scale-x, 0.9), var(--fa-bounce-jump-scale-y, 1.1)) translateY(var(--fa-bounce-height, -0.5em));
+  }
+  50% {
+    -webkit-transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+            transform: scale(var(--fa-bounce-land-scale-x, 1.05), var(--fa-bounce-land-scale-y, 0.95)) translateY(0);
+  }
+  57% {
+    -webkit-transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+            transform: scale(1, 1) translateY(var(--fa-bounce-rebound, -0.125em));
+  }
+  64% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+  100% {
+    -webkit-transform: scale(1, 1) translateY(0);
+            transform: scale(1, 1) translateY(0);
+  }
+}
+@-webkit-keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@keyframes fa-fade {
+  50% {
+    opacity: var(--fa-fade-opacity, 0.4);
+  }
+}
+@-webkit-keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@keyframes fa-beat-fade {
+  0%, 100% {
+    opacity: var(--fa-beat-fade-opacity, 0.4);
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    -webkit-transform: scale(var(--fa-beat-fade-scale, 1.125));
+            transform: scale(var(--fa-beat-fade-scale, 1.125));
+  }
+}
+@-webkit-keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@keyframes fa-flip {
+  50% {
+    -webkit-transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+            transform: rotate3d(var(--fa-flip-x, 0), var(--fa-flip-y, 1), var(--fa-flip-z, 0), var(--fa-flip-angle, -180deg));
+  }
+}
+@-webkit-keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@keyframes fa-shake {
+  0% {
+    -webkit-transform: rotate(-15deg);
+            transform: rotate(-15deg);
+  }
+  4% {
+    -webkit-transform: rotate(15deg);
+            transform: rotate(15deg);
+  }
+  8%, 24% {
+    -webkit-transform: rotate(-18deg);
+            transform: rotate(-18deg);
+  }
+  12%, 28% {
+    -webkit-transform: rotate(18deg);
+            transform: rotate(18deg);
+  }
+  16% {
+    -webkit-transform: rotate(-22deg);
+            transform: rotate(-22deg);
+  }
+  20% {
+    -webkit-transform: rotate(22deg);
+            transform: rotate(22deg);
+  }
+  32% {
+    -webkit-transform: rotate(-12deg);
+            transform: rotate(-12deg);
+  }
+  36% {
+    -webkit-transform: rotate(12deg);
+            transform: rotate(12deg);
+  }
+  40%, 100% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+}
+@-webkit-keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+@keyframes fa-spin {
+  0% {
+    -webkit-transform: rotate(0deg);
+            transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(360deg);
+            transform: rotate(360deg);
+  }
+}
+.fa-rotate-90 {
+  -webkit-transform: rotate(90deg);
+          transform: rotate(90deg);
+}
+
+.fa-rotate-180 {
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+}
+
+.fa-rotate-270 {
+  -webkit-transform: rotate(270deg);
+          transform: rotate(270deg);
+}
+
+.fa-flip-horizontal {
+  -webkit-transform: scale(-1, 1);
+          transform: scale(-1, 1);
+}
+
+.fa-flip-vertical {
+  -webkit-transform: scale(1, -1);
+          transform: scale(1, -1);
+}
+
+.fa-flip-both,
+.fa-flip-horizontal.fa-flip-vertical {
+  -webkit-transform: scale(-1, -1);
+          transform: scale(-1, -1);
+}
+
+.fa-rotate-by {
+  -webkit-transform: rotate(var(--fa-rotate-angle, none));
+          transform: rotate(var(--fa-rotate-angle, none));
+}
+
+.fa-stack {
+  display: inline-block;
+  vertical-align: middle;
+  height: 2em;
+  position: relative;
+  width: 2.5em;
+}
+
+.fa-stack-1x,
+.fa-stack-2x {
+  bottom: 0;
+  left: 0;
+  margin: auto;
+  position: absolute;
+  right: 0;
+  top: 0;
+  z-index: var(--fa-stack-z-index, auto);
+}
+
+.svg-inline--fa.fa-stack-1x {
+  height: 1em;
+  width: 1.25em;
+}
+.svg-inline--fa.fa-stack-2x {
+  height: 2em;
+  width: 2.5em;
+}
+
+.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}
+
+.sr-only,
+.fa-sr-only {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.sr-only-focusable:not(:focus),
+.fa-sr-only-focusable:not(:focus) {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border-width: 0;
+}
+
+.svg-inline--fa .fa-primary {
+  fill: var(--fa-primary-color, currentColor);
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa .fa-secondary {
+  fill: var(--fa-secondary-color, currentColor);
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-primary {
+  opacity: var(--fa-secondary-opacity, 0.4);
+}
+
+.svg-inline--fa.fa-swap-opacity .fa-secondary {
+  opacity: var(--fa-primary-opacity, 1);
+}
+
+.svg-inline--fa mask .fa-primary,
+.svg-inline--fa mask .fa-secondary {
+  fill: black;
+}
+
+.fad.fa-inverse,
+.fa-duotone.fa-inverse {
+  color: var(--fa-inverse, #fff);
+}</style><link rel="stylesheet" href="./Vegas Admin_files/layout.css" data-precedence="next_static/css/app/admin/layout.css"><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"><meta name="theme-color" content="#000000"><link rel="shortcut icon" href="http://localhost:3000/img/brand/favicon.ico"><link rel="apple-touch-icon" sizes="76x76" href="http://localhost:3000/img/brand/apple-icon.png"><title>Vegas Admin</title><script src="./Vegas Admin_files/polyfills.js" nomodule=""></script><style type="text/css">@font-face { font-family: Roboto; src: url("chrome-extension://mcgbeeipkmelnpldkobichboakdfaeon/css/Roboto-Regular.ttf"); }</style><script src="chrome-extension://olmmagdolfehlpjmbkmondggbebeimoh/dist/globals.js"></script><meta name="viewport" content="width=device-width, initial-scale=1"><link href="./Vegas Admin_files/layout.css" rel="preload" as="style"></head><body class="text-blueGray-700 antialiased bg-blueGray-100"><nav class="md:left-0 md:block md:fixed md:top-0 md:bottom-0 md:overflow-y-auto md:flex-row md:flex-nowrap md:overflow-hidden shadow-xl bg-white flex flex-wrap items-center justify-between relative md:w-64 z-10 py-4 px-6"><div class="md:flex-col md:items-stretch md:min-h-full md:flex-nowrap px-0 flex flex-wrap items-center justify-between w-full mx-auto"><button class="cursor-pointer text-black opacity-50 md:hidden px-3 py-1 text-xl leading-none bg-transparent rounded border border-solid border-transparent" type="button"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="bars" class="svg-inline--fa fa-bars " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><path fill="currentColor" d="M0 96C0 78.3 14.3 64 32 64H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32C14.3 128 0 113.7 0 96zM0 256c0-17.7 14.3-32 32-32H416c17.7 0 32 14.3 32 32s-14.3 32-32 32H32c-17.7 0-32-14.3-32-32zM448 416c0 17.7-14.3 32-32 32H32c-17.7 0-32-14.3-32-32s14.3-32 32-32H416c17.7 0 32 14.3 32 32z"></path></svg></button><a class="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0" href="http://localhost:3000/admin">VEGAS</a><ul class="md:hidden items-center flex flex-wrap list-none"><li class="inline-block relative"></li><li class="inline-block relative"></li></ul><div class="md:flex md:flex-col md:items-stretch md:opacity-100 md:relative md:mt-4 md:shadow-none shadow absolute top-0 left-0 right-0 z-40 overflow-y-auto overflow-x-hidden h-auto items-center flex-1 rounded hidden"><div class="md:min-w-full md:hidden block pb-4 mb-4 border-b border-solid border-blueGray-200"><div class="flex flex-wrap"><div class="w-6/12"><a class="md:block text-left md:pb-2 text-blueGray-600 mr-0 inline-block whitespace-nowrap text-sm uppercase font-bold p-4 px-0" href="http://localhost:3000/">VEGAS ADMIN</a></div><div class="w-6/12 flex justify-end"><button type="button" class="cursor-pointer text-black opacity-50 md:hidden px-3 py-1 text-xl leading-none bg-transparent rounded border border-solid border-transparent"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="xmark" class="svg-inline--fa fa-xmark " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M342.6 150.6c12.5-12.5 12.5-32.8 0-45.3s-32.8-12.5-45.3 0L192 210.7 86.6 105.4c-12.5-12.5-32.8-12.5-45.3 0s-12.5 32.8 0 45.3L146.7 256 41.4 361.4c-12.5 12.5-12.5 32.8 0 45.3s32.8 12.5 45.3 0L192 301.3 297.4 406.6c12.5 12.5 32.8 12.5 45.3 0s12.5-32.8 0-45.3L237.3 256 342.6 150.6z"></path></svg></button></div></div></div><form class="mt-6 mb-4 md:hidden"><div class="mb-3 pt-0"><input type="text" placeholder="Search" disabled="" class="px-3 py-2 h-12 border border-solid  border-blueGray-500 placeholder-blueGray-300 text-blueGray-600 bg-white rounded text-base leading-snug shadow-none outline-none focus:outline-none w-full font-normal"></div></form><hr class="my-4 md:min-w-full"><h6 class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">Administração</h6><ul class="md:flex-col md:min-w-full flex flex-col list-none"><li class="items-center"><a class="text-xs uppercase py-3 font-bold block text-lightBlue-500 hover:text-lightBlue-600" href="http://localhost:3000/admin"><i class="fas fa-tv mr-2 text-sm text-blueGray-300"></i> <!-- -->Dashboard</a></li><li class="items-center"><a class="text-xs uppercase py-3 font-bold block text-blueGray-700 hover:text-blueGray-500" href="http://localhost:3000/admin/users"><i class="fas fa-table mr-2 text-sm text-blueGray-300"></i> <!-- -->Usuários</a></li></ul><hr class="my-4 md:min-w-full"><h6 class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">Sorteios</h6><ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4"><li class="items-center"><a class="text-xs uppercase py-3 font-bold block text-blueGray-700 hover:text-blueGray-500" href="http://localhost:3000/admin/sweepstakes"><i class="fas fa-fingerprint text-blueGray-400 mr-2 text-sm"></i> Sorteios</a></li><li class="items-center"><a class="text-xs uppercase py-3 font-bold block text-lightBlue-500 hover:text-lightBlue-600" href="http://localhost:3000/admin/bilhetes"><i class="fas fa-fingerprint text-blueGray-400 mr-2 text-sm"></i> Bilhetes</a></li><li class="items-center"><a class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block" href="http://localhost:3000/auth/login"><i class="fas fa-fingerprint text-blueGray-400 mr-2 text-sm"></i> Ganhadores</a></li><li class="items-center"><a class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block" href="http://localhost:3000/admin/autobingo"><i class="fas fa-clipboard-list text-blueGray-300 mr-2 text-sm"></i> Auto bingo</a></li><li class="items-center"><a class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block" href="http://localhost:3000/auth/register"><i class="fas fa-clipboard-list text-blueGray-300 mr-2 text-sm"></i> Descarrego</a></li></ul><hr class="my-4 md:min-w-full"><h6 class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">Financeiro</h6><ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4"><li class="items-center"><a class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block" href="http://localhost:3000/landing"><i class="fas fa-newspaper text-blueGray-400 mr-2 text-sm"></i> Caixa</a></li><li class="items-center"><a class="text-blueGray-700 hover:text-blueGray-500 text-xs uppercase py-3 font-bold block" href="http://localhost:3000/profile"><i class="fas fa-user-circle text-blueGray-400 mr-2 text-sm"></i> Fechamento</a></li></ul><hr class="my-4 md:min-w-full"><h6 class="md:min-w-full text-blueGray-500 text-xs uppercase font-bold block pt-1 pb-4 no-underline">Segurança</h6><ul class="md:flex-col md:min-w-full flex flex-col list-none md:mb-4"><li class="inline-flex"><a href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/colors/notus" target="_blank" class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"><i class="fas fa-paint-brush mr-2 text-blueGray-300 text-base"></i>Configurações</a></li><li class="inline-flex"><a href="https://www.creative-tim.com/learning-lab/tailwind/nextjs/alerts/notus" target="_blank" class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"><i class="fab fa-css3-alt mr-2 text-blueGray-300 text-base"></i>Auditoria</a></li><li class="inline-flex"><a href="https://www.creative-tim.com/learning-lab/tailwind/angular/overview/notus" class="text-blueGray-700 hover:text-blueGray-500 text-sm block mb-4 no-underline font-semibold"><i class="fab fa-angular mr-2 text-blueGray-300 text-base"></i>SAIR</a></li></ul></div></div></nav><div class="relative md:ml-64 bg-blueGray-100"><nav class="absolute top-0 left-0 w-full z-10 bg-transparent md:flex-row md:flex-nowrap md:justify-start flex items-center p-4"><div class="w-full mx-autp items-center flex justify-between md:flex-nowrap flex-wrap md:px-10 px-4"><a class="text-white text-sm uppercase hidden lg:inline-block font-semibold" href="http://localhost:3000/admin/bilhetes?start=2022-01-01&amp;end=2023-12-31&amp;sorteio=1&amp;cartela=1&amp;controle=1&amp;status=premiado#vegas">/admin/bilhetes</a><form class="md:flex hidden flex-row flex-wrap items-center lg:ml-auto mr-3"><div class="relative flex w-full flex-wrap items-stretch"><span class="z-10 h-full leading-snug font-normal absolute text-center text-blueGray-300 absolute bg-transparent rounded text-base items-center justify-center w-8 pl-3 py-3"><i class="fas fa-search"></i></span><input type="text" disabled="" placeholder="Pesquisa..." class="border-0 px-3 py-3 placeholder-blueGray-300 text-blueGray-600 relative bg-white bg-white rounded text-sm shadow outline-none focus:outline-none focus:ring w-full pl-10" value=""></div></form><ul class="flex-col md:flex-row list-none items-center hidden md:flex"></ul><a class="text-blueGray-500 block" href="http://localhost:3000/admin/profile"><div class="items-center flex"><span class="w-12 h-12 text-sm text-white bg-blueGray-200 inline-flex items-center justify-center rounded-full"><img alt="admin" loading="lazy" width="48" height="48" decoding="async" data-nimg="1" class="w-full rounded-full align-middle border-none shadow-lg" style="color:transparent" srcset="/_next/image?url=https%3A%2F%2Frobohash.org%2Fadmin%409000&amp;w=48&amp;q=75 1x, /_next/image?url=https%3A%2F%2Frobohash.org%2Fadmin%409000&amp;w=96&amp;q=75 2x" src="./Vegas Admin_files/admin@9000.png"></span></div></a></div></nav><div class="relative bg-blueGray-800 md:pt-32 pb-36 pt-12"><div class="px-4 md:px-10 mx-auto w-full"><div></div></div></div><div class="px-4 md:px-10 mx-auto w-full -m-24"><div class="flex flex-wrap"><div class="w-full lg:w-8/12 px-4 lg:order-0 order-1"><div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-100 border-0"><div class="rounded-t bg-white mb-0 px-6 py-6"><div class="text-center flex justify-between"><h6 class="text-blueGray-700 text-xl font-bold">Listar Bilhetes</h6></div><div class="relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-white"><div class="rounded-t mb-0 px-4 py-3 border-0"><div class="flex flex-wrap items-center"><div class="relative w-full px-4 max-w-full flex-grow flex-1"><h3 class="font-semibold text-lg bg-white">Bilhetes</h3></div></div></div><div class="block w-full overflow-x-auto"><table class="items-center w-full bg-transparent border-collapse"><thead><tr><th class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left bg-blueGray-50 text-blueGray-500 border-blueGray-100">Numero</th><th class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left bg-blueGray-50 text-blueGray-500 border-blueGray-100">Sorteio</th><th class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left bg-blueGray-50 text-blueGray-500 border-blueGray-100">Vendedor</th><th class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left bg-blueGray-50 text-blueGray-500 border-blueGray-100">Cliente</th><th class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left bg-blueGray-50 text-blueGray-500 border-blueGray-100">Valor</th><th class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left bg-blueGray-50 text-blueGray-500 border-blueGray-100">Comissão</th><th class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left bg-blueGray-50 text-blueGray-500 border-blueGray-100">Ações</th><th class="px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left bg-blueGray-50 text-blueGray-500 border-blueGray-100"></th></tr></thead><tbody></tbody></table></div></div></div></div></div><div class="w-full px-4 lg:w-4/12 lg:order-1 order-0"><div class="relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg mt-0 lg:mt-16"><div class="px-6 pt-16 pb-8"><h4 class="p-4">Filtros</h4><div class="flex flex-col gap-2"><div class="w-full"><label class="text-sm text-gray-500 dark:text-gray-400 scale-1 top-3">Período:</label><div class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"><div class="tremor-DateRangePicker-root relative w-full max-w-md mx-auto"><div class="tremor-DateRangePicker-button flex items-center justify-between bg-white rounded-md shadow-sm"><button type="button" class="tremor-DateRangePicker-calendarButton flex items-center w-full truncate focus:outline-none focus:ring-2 bg-white hover:bg-gray-50 text-gray-700 border-gray-300 rounded-r-md focus:ring-blue-200 px-4 py-2 rounded-l-md border"><svg class="tremor-DateRangePicker-calendarButtonIcon flex-none text-gray-400 h-5 w-5 -ml-0.5 mr-3" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20" fill="currentColor"><path fill-rule="evenodd" d="M6 2a1 1 0 00-1 1v1H4a2 2 0 00-2 2v10a2 2 0 002 2h12a2 2 0 002-2V6a2 2 0 00-2-2h-1V3a1 1 0 10-2 0v1H7V3a1 1 0 00-1-1zm0 5a1 1 0 000 2h8a1 1 0 100-2H6z" clip-rule="evenodd"></path></svg><p class="tremor-DateRangePicker-calendarButtonText whitespace-nowrap truncate text-sm font-medium">Invalid Date - 
+                    Invalid Date</p></button></div></div></div></div><div class="w-full"><label class="text-sm text-gray-500 dark:text-gray-400 scale-1 top-3">Status:</label><div class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"><div class="relative w-full min-w-[10rem]"><button class="tremor-SelectBox-root flex w-full items-center overflow-hidden cursor-text focus:outline-none focus:ring-2 bg-white hover:bg-gray-50 text-gray-700 border-gray-300 focus:ring-blue-200 rounded-md border shadow-sm"><input class="tremor-SelectBox-input w-full focus:outline-none focus:ring-0 bg-inherit pl-4 py-2 text-sm font-medium border-0 placeholder:text-gray-500" placeholder="Select..." type="text" value="ABERTA"><svg class="tremor-SelectBox-arrowDownIcon flex-none h-5 w-5 mr-3 text-gray-400" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="24" height="24"><path fill="none" d="M0 0h24v24H0z"></path><path fill="currentColor" d="M12 13.172l4.95-4.95 1.414 1.414L12 16 5.636 9.636 7.05 8.222z"></path></svg></button></div></div></div><div class="w-full"><label class="text-sm text-gray-500 dark:text-gray-400 scale-1 top-3">Sorteio:</label><div class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"><div class="tremor-TextInput-root relative w-full flex items-center min-w-[10rem] focus:outline-none focus:ring-2 bg-white hover:bg-gray-50 text-gray-500 border-gray-300 focus:ring-blue-200 rounded-md border shadow-sm"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="dong-sign" class="svg-inline--fa fa-dong-sign " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M288 32c-17.7 0-32 14.3-32 32l-32 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h32v49.1c-18.8-10.9-40.7-17.1-64-17.1c-70.7 0-128 57.3-128 128s57.3 128 128 128c24.5 0 47.4-6.9 66.8-18.8c5 11.1 16.2 18.8 29.2 18.8c17.7 0 32-14.3 32-32V288 128c17.7 0 32-14.3 32-32s-14.3-32-32-32c0-17.7-14.3-32-32-32zM128 288a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM32 448c-17.7 0-32 14.3-32 32s14.3 32 32 32H352c17.7 0 32-14.3 32-32s-14.3-32-32-32H32z"></path></svg><input class="tremor-TextInput-input w-full focus:outline-none focus:ring-0 bg-transparent pl-3 pr-4 py-2 text-sm font-medium border-0 placeholder:text-gray-500" placeholder="Número do sorteio..." type="text" value=""></div></div></div><div class="w-full"><label class="text-sm text-gray-500 dark:text-gray-400 scale-1 top-3">Número de controle:</label><div class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"><div class="tremor-TextInput-root relative w-full flex items-center min-w-[10rem] focus:outline-none focus:ring-2 bg-white hover:bg-gray-50 text-gray-500 border-gray-300 focus:ring-blue-200 rounded-md border shadow-sm"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="dong-sign" class="svg-inline--fa fa-dong-sign " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M288 32c-17.7 0-32 14.3-32 32l-32 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h32v49.1c-18.8-10.9-40.7-17.1-64-17.1c-70.7 0-128 57.3-128 128s57.3 128 128 128c24.5 0 47.4-6.9 66.8-18.8c5 11.1 16.2 18.8 29.2 18.8c17.7 0 32-14.3 32-32V288 128c17.7 0 32-14.3 32-32s-14.3-32-32-32c0-17.7-14.3-32-32-32zM128 288a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM32 448c-17.7 0-32 14.3-32 32s14.3 32 32 32H352c17.7 0 32-14.3 32-32s-14.3-32-32-32H32z"></path></svg><input class="tremor-TextInput-input w-full focus:outline-none focus:ring-0 bg-transparent pl-3 pr-4 py-2 text-sm font-medium border-0 placeholder:text-gray-500" placeholder="Número de controle..." type="text" value=""></div></div></div><div class="w-full"><label class="text-sm text-gray-500 dark:text-gray-400 scale-1 top-3">Bilhete:</label><div class="block py-2.5 px-0 w-full text-sm text-gray-900 bg-transparent border-0 border-gray-300 appearance-none dark:text-black dark:border-gray-600 dark:focus:border-blue-500 focus:outline-none focus:ring-0 focus:border-blue-600 peer"><div class="tremor-TextInput-root relative w-full flex items-center min-w-[10rem] focus:outline-none focus:ring-2 bg-white hover:bg-gray-50 text-gray-500 border-gray-300 focus:ring-blue-200 rounded-md border shadow-sm"><svg aria-hidden="true" focusable="false" data-prefix="fas" data-icon="dong-sign" class="svg-inline--fa fa-dong-sign " role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512"><path fill="currentColor" d="M288 32c-17.7 0-32 14.3-32 32l-32 0c-17.7 0-32 14.3-32 32s14.3 32 32 32h32v49.1c-18.8-10.9-40.7-17.1-64-17.1c-70.7 0-128 57.3-128 128s57.3 128 128 128c24.5 0 47.4-6.9 66.8-18.8c5 11.1 16.2 18.8 29.2 18.8c17.7 0 32-14.3 32-32V288 128c17.7 0 32-14.3 32-32s-14.3-32-32-32c0-17.7-14.3-32-32-32zM128 288a64 64 0 1 1 128 0 64 64 0 1 1 -128 0zM32 448c-17.7 0-32 14.3-32 32s14.3 32 32 32H352c17.7 0 32-14.3 32-32s-14.3-32-32-32H32z"></path></svg><input class="tremor-TextInput-input w-full focus:outline-none focus:ring-0 bg-transparent pl-3 pr-4 py-2 text-sm font-medium border-0 placeholder:text-gray-500" placeholder="Bilhete..." type="text" value=""></div></div></div><button type="button" class="bg-blue-600 hover:bg-blue-700 py-2 px-4 text-sm font-medium text-white border border-transparent rounded-lg focus:outline-none">Filtrar bilhetes</button></div></div></div></div></div><footer class="block py-4 bottom-0"><div class="container mx-auto px-4"><hr class="mb-4 border-b-1 border-blueGray-200"><div class="flex flex-wrap items-center md:justify-between justify-center"><div class="w-full md:w-4/12 px-4"><div class="text-sm text-blueGray-500 font-semibold py-1 text-center md:text-left">Copyright © 2023<a href="https://www.creative-tim.com/?ref=nnjs-footer-admin" class="text-blueGray-500 hover:text-blueGray-700 text-sm font-semibold py-1">CIAADEV</a></div></div><div class="w-full md:w-8/12 px-4"><ul class="flex flex-wrap list-none md:justify-end  justify-center"><li><a href="https://www.creative-tim.com/?ref=nnjs-footer-admin" class="text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3">Vegas</a></li><li><a href="https://www.creative-tim.com/presentation?ref=nnjs-footer-admin" class="text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3">About Us</a></li><li><a href="http://blog.creative-tim.com/?ref=nnjs-footer-admin" class="text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3">Blog</a></li><li><a href="https://github.com/creativetimofficial/notus-nextjs/blob/main/LICENSE.md?ref=nnjs-footer-admin" class="text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3">Termos de uso</a></li></ul></div></div></div></footer></div></div><script src="./Vegas Admin_files/webpack.js" async=""></script><script src="./Vegas Admin_files/main-app.js" async=""></script><script>(self.__next_f=self.__next_f||[]).push([0])</script><script>self.__next_f.push([1,"0:\"$L1\"\n"])</script><script>self.__next_f.push([1,"2:HL[\"/_next/static/css/app/admin/layout.css?v=1684357981043\",{\"as\":\"style\"}]\n"])</script><script>self.__next_f.push([1,"3:I{\"id\":\"(app-client)/./node_modules/next/dist/client/components/app-router.js\",\"chunks\":[\"webpack:static/chunks/webpack.js\"],\"name\":\"\",\"async\":false}\n5:I{\"id\":\"(app-client)/./node_modules/next/dist/client/components/error-boundary.js\",\"chunks\":[\"webpack:static/chunks/webpack.js\"],\"name\":\"\",\"async\":false}\n6:I{\"id\":\"(app-client)/./node_modules/next/dist/client/components/layout-router.js\",\"chunks\":[\"app-client-internals:static/chunks/app-client-internals.js\"],\"name\":\"\",\"async\":false}\n7:I{\"id\":\"(app-client)/"])</script><script>self.__next_f.push([1,"./node_modules/next/dist/client/components/render-from-template-context.js\",\"chunks\":[\"app-client-internals:static/chunks/app-client-internals.js\"],\"name\":\"\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"1:[[],[\"$\",\"$L3\",null,{\"assetPrefix\":\"\",\"initialCanonicalUrl\":\"/admin/bilhetes?start=2022-01-01\u0026end=2023-12-31\u0026sorteio=1\u0026cartela=1\u0026controle=1\u0026status=premiado\",\"initialTree\":[\"\",{\"children\":[\"admin\",{\"children\":[\"bilhetes\",{\"children\":[\"__PAGE__?{\\\"start\\\":\\\"2022-01-01\\\",\\\"end\\\":\\\"2023-12-31\\\",\\\"sorteio\\\":\\\"1\\\",\\\"cartela\\\":\\\"1\\\",\\\"controle\\\":\\\"1\\\",\\\"status\\\":\\\"premiado\\\"}\",{}]}]},\"$undefined\",\"$undefined\",true]}],\"initialHead\":[\"$L4\",null],\"globalErrorComponent\":\"$5\",\"notFound\":\"$undefined\",\"asNotFound\":false,\"children\":[\"$\",\"$L6\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$L7\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"asNotFound\":false,\"childProp\":{\"current\":[\"$L8\",null],\"segment\":\"admin\"},\"styles\":[[\"$\",\"link\",\"0\",{\"rel\":\"stylesheet\",\"href\":\"/_next/static/css/app/admin/layout.css?v=1684357981043\",\"precedence\":\"next_static/css/app/admin/layout.css\"}]]}]}]]\n"])</script><script>self.__next_f.push([1,"9:I{\"id\":\"(app-client)/./components/layout/sidebar.tsx\",\"chunks\":[\"app/admin/layout:static/chunks/app/admin/layout.js\"],\"name\":\"\",\"async\":false}\na:I{\"id\":\"(app-client)/./components/layout/navbar_admin.tsx\",\"chunks\":[\"app/admin/layout:static/chunks/app/admin/layout.js\"],\"name\":\"\",\"async\":false}\nb:I{\"id\":\"(app-client)/./components/user_dropdown.tsx\",\"chunks\":[\"app/admin/layout:static/chunks/app/admin/layout.js\"],\"name\":\"\",\"async\":false}\n4:[[[\"$\",\"meta\",null,{\"charSet\":\"utf-8\"}],null,null,null,null,null,null,n"])</script><script>self.__next_f.push([1,"ull,null,null,null,[\"$\",\"meta\",null,{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1\"}],null,null,null,null,null,null,null,null,null,null,[]],[null,null,null,null],null,null,[null,null,null,null,null],null,null,null,null,null]\n"])</script><script>self.__next_f.push([1,"8:[\"$\",\"html\",null,{\"lang\":\"en\",\"children\":[[\"$\",\"head\",null,{\"children\":[[\"$\",\"meta\",null,{\"name\":\"viewport\",\"content\":\"width=device-width, initial-scale=1, shrink-to-fit=no\"}],[\"$\",\"meta\",null,{\"charSet\":\"utf-8\"}],[\"$\",\"meta\",null,{\"name\":\"theme-color\",\"content\":\"#000000\"}],[\"$\",\"link\",null,{\"rel\":\"shortcut icon\",\"href\":\"/img/brand/favicon.ico\"}],[\"$\",\"link\",null,{\"rel\":\"apple-touch-icon\",\"sizes\":\"76x76\",\"href\":\"/img/brand/apple-icon.png\"}],[\"$\",\"title\",null,{\"children\":\"Vegas Admin\"}]]}],[\"$\",\"body\",null,{\"className\":\"text-blueGray-700 antialiased bg-blueGray-100\",\"children\":[[\"$\",\"$L9\",null,{}],[\"$\",\"div\",null,{\"className\":\"relative md:ml-64 bg-blueGray-100\",\"children\":[[\"$\",\"$La\",null,{\"children\":[\"$\",\"$Lb\",null,{\"session\":{\"access_token\":\"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJUlMiLCJzdWIiOiIzIiwiaWF0IjoxNjg0MzQyMzU3LCJleHAiOjE2ODQ0Mjg3NTd9.z-0x_I30pAM3ueJtGgSeOM2NqnQrcxxpT23VV1WE2DA\",\"user\":{\"access_token\":\"eyJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJJUlMiLCJzdWIiOiIzIiwiaWF0IjoxNjg0MzQyMzU3LCJleHAiOjE2ODQ0Mjg3NTd9.z-0x_I30pAM3ueJtGgSeOM2NqnQrcxxpT23VV1WE2DA\",\"name\":\"admin\",\"email\":\"admin@9000\",\"image\":\"https://robohash.org/admin@9000\"}}}]}],\"$undefined\",[\"$\",\"div\",null,{\"className\":\"px-4 md:px-10 mx-auto w-full -m-24\",\"children\":[[\"$\",\"$L6\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"admin\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$L7\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"asNotFound\":false,\"childProp\":{\"current\":[\"$\",\"$L6\",null,{\"parallelRouterKey\":\"children\",\"segmentPath\":[\"children\",\"admin\",\"children\",\"bilhetes\",\"children\"],\"error\":\"$undefined\",\"errorStyles\":\"$undefined\",\"loading\":\"$undefined\",\"loadingStyles\":\"$undefined\",\"hasLoading\":false,\"template\":[\"$\",\"$L7\",null,{}],\"templateStyles\":\"$undefined\",\"notFound\":\"$undefined\",\"notFoundStyles\":\"$undefined\",\"asNotFound\":false,\"childProp\":{\"current\":[\"$Lc\",null],\"segment\":\"__PAGE__?{\\\"start\\\":\\\"2022-01-01\\\",\\\"end\\\":\\\"2023-12-31\\\",\\\"sorteio\\\":\\\"1\\\",\\\"cartela\\\":\\\"1\\\",\\\"controle\\\":\\\"1\\\",\\\"status\\\":\\\"premiado\\\"}\"},\"styles\":[]}],\"segment\":\"bilhetes\"},\"styles\":[]}],[\"$\",\"footer\",null,{\"className\":\"block py-4 bottom-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"container mx-auto px-4\",\"children\":[[\"$\",\"hr\",null,{\"className\":\"mb-4 border-b-1 border-blueGray-200\"}],[\"$\",\"div\",null,{\"className\":\"flex flex-wrap items-center md:justify-between justify-center\",\"children\":[[\"$\",\"div\",null,{\"className\":\"w-full md:w-4/12 px-4\",\"children\":[\"$\",\"div\",null,{\"className\":\"text-sm text-blueGray-500 font-semibold py-1 text-center md:text-left\",\"children\":[\"Copyright © 2023\",[\"$\",\"a\",null,{\"href\":\"https://www.creative-tim.com?ref=nnjs-footer-admin\",\"className\":\"text-blueGray-500 hover:text-blueGray-700 text-sm font-semibold py-1\",\"children\":\"CIAADEV\"}]]}]}],[\"$\",\"div\",null,{\"className\":\"w-full md:w-8/12 px-4\",\"children\":[\"$\",\"ul\",null,{\"className\":\"flex flex-wrap list-none md:justify-end  justify-center\",\"children\":[[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.creative-tim.com?ref=nnjs-footer-admin\",\"className\":\"text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3\",\"children\":\"Vegas\"}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://www.creative-tim.com/presentation?ref=nnjs-footer-admin\",\"className\":\"text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3\",\"children\":\"About Us\"}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"http://blog.creative-tim.com?ref=nnjs-footer-admin\",\"className\":\"text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3\",\"children\":\"Blog\"}]}],[\"$\",\"li\",null,{\"children\":[\"$\",\"a\",null,{\"href\":\"https://github.com/creativetimofficial/notus-nextjs/blob/main/LICENSE.md?ref=nnjs-footer-admin\",\"className\":\"text-blueGray-600 hover:text-blueGray-800 text-sm font-semibold block py-1 px-3\",\"children\":\"Termos de uso\"}]}]]}]}]]}]]}]}]]}]]}]]}]]}]\n"])</script><script>self.__next_f.push([1,"d:I{\"id\":\"(app-client)/./components/filters/filters_bilhete.tsx\",\"chunks\":[\"app/admin/bilhetes/page:static/chunks/app/admin/bilhetes/page.js\"],\"name\":\"\",\"async\":false}\n"])</script><script>self.__next_f.push([1,"c:[\"$\",\"div\",null,{\"className\":\"flex flex-wrap\",\"children\":[[\"$\",\"div\",null,{\"className\":\"w-full lg:w-8/12 px-4 lg:order-0 order-1\",\"children\":[\"$\",\"div\",null,{\"className\":\"relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded-lg bg-blueGray-100 border-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"rounded-t bg-white mb-0 px-6 py-6\",\"children\":[[\"$\",\"div\",null,{\"className\":\"text-center flex justify-between\",\"children\":[\"$\",\"h6\",null,{\"className\":\"text-blueGray-700 text-xl font-bold\",\"children\":\"Listar Bilhetes\"}]}],[\"$\",\"div\",null,{\"className\":\"relative flex flex-col min-w-0 break-words w-full mb-6 shadow-lg rounded bg-white\",\"children\":[[\"$\",\"div\",null,{\"className\":\"rounded-t mb-0 px-4 py-3 border-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"flex flex-wrap items-center\",\"children\":[\"$\",\"div\",null,{\"className\":\"relative w-full px-4 max-w-full flex-grow flex-1\",\"children\":[\"$\",\"h3\",null,{\"className\":\"font-semibold text-lg bg-white\",\"children\":\"Bilhetes\"}]}]}]}],[\"$\",\"div\",null,{\"className\":\"block w-full overflow-x-auto\",\"children\":[\"$\",\"table\",null,{\"className\":\"items-center w-full bg-transparent border-collapse\",\"children\":[[\"$\",\"thead\",null,{\"children\":[\"$\",\"tr\",null,{\"children\":[[\"$\",\"th\",null,{\"className\":\"px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left bg-blueGray-50 text-blueGray-500 border-blueGray-100\",\"children\":\"Numero\"}],[\"$\",\"th\",null,{\"className\":\"px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left bg-blueGray-50 text-blueGray-500 border-blueGray-100\",\"children\":\"Sorteio\"}],[\"$\",\"th\",null,{\"className\":\"px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left bg-blueGray-50 text-blueGray-500 border-blueGray-100\",\"children\":\"Vendedor\"}],[\"$\",\"th\",null,{\"className\":\"px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left bg-blueGray-50 text-blueGray-500 border-blueGray-100\",\"children\":\"Cliente\"}],[\"$\",\"th\",null,{\"className\":\"px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left bg-blueGray-50 text-blueGray-500 border-blueGray-100\",\"children\":\"Valor\"}],[\"$\",\"th\",null,{\"className\":\"px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left bg-blueGray-50 text-blueGray-500 border-blueGray-100\",\"children\":\"Comissão\"}],[\"$\",\"th\",null,{\"className\":\"px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left bg-blueGray-50 text-blueGray-500 border-blueGray-100\",\"children\":\"Ações\"}],[\"$\",\"th\",null,{\"className\":\"px-6 align-middle border border-solid py-3 text-xs uppercase border-l-0 border-r-0 whitespace-nowrap font-semibold text-left bg-blueGray-50 text-blueGray-500 border-blueGray-100\"}]]}]}],[\"$\",\"tbody\",null,{\"children\":[]}]]}]}]]}]]}]}]}],[\"$\",\"div\",null,{\"className\":\"w-full px-4 lg:w-4/12 lg:order-1 order-0\",\"children\":[\"$\",\"div\",null,{\"className\":\"relative flex flex-col min-w-0 break-words bg-white w-full mb-6 shadow-xl rounded-lg mt-0 lg:mt-16\",\"children\":[\"$\",\"div\",null,{\"className\":\"px-6 pt-16 pb-8\",\"children\":[[\"$\",\"h4\",null,{\"className\":\"p-4\",\"children\":\"Filtros\"}],[\"$\",\"$Ld\",null,{}]]}]}]}]]}]\n"])</script><script>
+		function returnCommentSymbol(language = "javascript") {
+			const languageObject = {
+				bat: "@REM",
+				c: "//",
+				csharp: "//",
+				cpp: "//",
+				closure: ";;",
+				coffeescript: "#",
+				dockercompose: "#",
+				css: "/*DELIMITER*/",
+				"cuda-cpp": "//",
+				dart: "//",
+				diff: "#",
+				dockerfile: "#",
+				fsharp: "//",
+				"git-commit": "//",
+				"git-rebase": "#",
+				go: "//",
+				groovy: "//",
+				handlebars: "{{!--DELIMITER--}}",
+				hlsl: "//",
+				html: "<!--DELIMITER-->",
+				ignore: "#",
+				ini: ";",
+				java: "//",
+				javascript: "//",
+				javascriptreact: "//",
+				json: "//",
+				jsonc: "//",
+				julia: "#",
+				latex: "%",
+				less: "//",
+				lua: "--",
+				makefile: "#",
+				markdown: "<!--DELIMITER-->",
+				"objective-c": "//",
+				"objective-cpp": "//",
+				perl: "#",
+				perl6: "#",
+				php: "<!--DELIMITER-->",
+				powershell: "#",
+				properties: ";",
+				jade: "//-",
+				python: "#",
+				r: "#",
+				razor: "<!--DELIMITER-->",
+				restructuredtext: "..",
+				ruby: "#",
+				rust: "//",
+				scss: "//",
+				shaderlab: "//",
+				shellscript: "#",
+				sql: "--",
+				svg: "<!--DELIMITER-->",
+				swift: "//",
+				tex: "%",
+				typescript: "//",
+				typescriptreact: "//",
+				vb: "'",
+				xml: "<!--DELIMITER-->",
+				xsl: "<!--DELIMITER-->",
+				yaml: "#"
+			}
+			if(!languageObject[language]){
+				return languageObject["python"].split("DELIMITER")
+			}
+			return languageObject[language].split("DELIMITER")
+		}
+		var savedChPos = 0
+		var returnedSuggestion = ''
+		let editor, doc, cursor, line, pos
+		pos = {line: 0, ch: 0}
+		var suggestionsStatus = false
+		var docLang = "python"
+		var suggestionDisplayed = false
+		var isReturningSuggestion = false
+		document.addEventListener("keydown", (event) => {
+		setTimeout(()=>{
+			editor = event.target.closest('.CodeMirror');
+			if (editor){
+				const codeEditor = editor.CodeMirror
+				if(!editor.classList.contains("added-tab-function")){
+					editor.classList.add("added-tab-function")
+					codeEditor.removeKeyMap("Tab")
+					codeEditor.setOption("extraKeys", {Tab: (cm)=>{
+
+						if(returnedSuggestion){
+							acceptTab(returnedSuggestion)
+						}
+						else{
+							cm.execCommand("defaultTab")
+						}
+					}})
+				}
+				doc = editor.CodeMirror.getDoc()
+				cursor = doc.getCursor()
+				line = doc.getLine(cursor.line)
+				pos = {line: cursor.line, ch: line.length}
+
+				if(cursor.ch > 0){
+					savedChPos = cursor.ch
+				}
+
+				const fileLang = doc.getMode().name
+				docLang = fileLang
+				const commentSymbol = returnCommentSymbol(fileLang)
+				if (event.key == "?"){
+					var lastLine = line
+					lastLine = lastLine.slice(0, savedChPos - 1)
+
+					if(lastLine.trim().startsWith(commentSymbol[0])){
+						if(fileLang !== "null"){
+							lastLine += " "+ fileLang
+						}
+						
+						lastLine = lastLine.split(commentSymbol[0])[1]
+						window.postMessage({source: 'getQuery', payload: { data: lastLine } } )
+						isReturningSuggestion = true
+						displayGrey("\nBlackbox loading...")
+					}
+				}else if(event.key === "Enter" && suggestionsStatus && !isReturningSuggestion){
+					var query = doc.getRange({ line: Math.max(0,cursor.line-50), ch: 0 }, { line: cursor.line, ch: line.length })
+					window.postMessage({source: 'getSuggestion', payload: { data: query, language: docLang, cursorPos: pos } } )
+					displayGrey("Blackbox loading...")
+				}else if(event.key === "ArrowRight" && returnedSuggestion){
+					acceptTab(returnedSuggestion)
+				}else if(event.key === "Enter" && isReturningSuggestion){
+					displayGrey("\nBlackbox loading...")
+				}else if(event.key === "Escape"){
+					displayGrey("")
+				}
+			}
+		}, 0)
+		})
+
+		function acceptTab(text){
+		if (suggestionDisplayed){
+			displayGrey("")
+			doc.replaceRange(text, pos)
+			returnedSuggestion = ""
+			updateSuggestionStatus(false)
+		}
+		}
+		function acceptSuggestion(text){
+			displayGrey("")
+			doc.replaceRange(text, pos)
+			returnedSuggestion = ""
+			updateSuggestionStatus(false)
+		}
+		function displayGrey(text){
+			if(!text){
+				document.querySelector(".blackbox-suggestion").remove()
+				return
+			}
+			var el = document.querySelector(".blackbox-suggestion")
+			if(!el){
+				el = document.createElement('span')
+				el.classList.add("blackbox-suggestion")
+				el.style = 'color:grey'
+				el.innerText = text
+			}
+			else{
+				el.innerText = text
+			}
+			
+			var lineIndex = pos.line;
+			editor.getElementsByClassName('CodeMirror-line')[lineIndex].appendChild(el)
+		}
+		function updateSuggestionStatus(s){
+			suggestionDisplayed = s
+			window.postMessage({source: 'updateSuggestionStatus', status: suggestionDisplayed, suggestion: returnedSuggestion})
+		}
+		window.addEventListener('message', (event)=>{
+		if (event.source !== window ) return
+		if (event.data.source == 'return'){
+			isReturningSuggestion = false
+			const formattedCode = formatCode(event.data.payload.data)
+			returnedSuggestion = formattedCode
+			displayGrey(formattedCode)
+			updateSuggestionStatus(true)
+		}
+		if(event.data.source == 'suggestReturn'){
+			const prePos = event.data.payload.cursorPos
+			if(pos.line == prePos.line && pos.ch == prePos.ch){
+				returnedSuggestion = event.data.payload.data
+				displayGrey(event.data.payload.data)
+				updateSuggestionStatus(true)
+			}
+			else{
+				displayGrey()
+			}
+		}
+		if(event.data.source == 'codeSearchReturn'){
+			isReturningSuggestion = false
+			displayGrey()
+		}
+		if(event.data.source == 'suggestionsStatus'){
+			suggestionsStatus = event.data.payload.enabled
+		}
+		if(event.data.source == 'acceptSuggestion'){
+			
+			acceptSuggestion(event.data.suggestion)
+		}
+		})
+		document.addEventListener("keyup", function(){
+			returnedSuggestion = ""
+			updateSuggestionStatus(false)
+		})
+		function formatCode(data) {
+			if (Array.isArray(data)) {
+				var finalCode = ""
+				var pairs = []
+		
+				const commentSymbol = returnCommentSymbol(docLang)
+				data.forEach((codeArr, idx) => {
+					const code = codeArr[0]
+					var desc = codeArr[1]
+					const descArr = desc.split("\n")
+					var finalDesc = ""
+					descArr.forEach((descLine, idx) => {
+						const whiteSpace = descLine.search(/\S/)
+						if (commentSymbol.length < 2 || idx === 0) {
+							finalDesc += insert(descLine, whiteSpace, commentSymbol[0])
+						}
+						if (commentSymbol.length > 1 && idx === descArr.length - 1) {
+							finalDesc = finalDesc + commentSymbol[1] + "\n"
+						}
+					})
+		
+					finalCode += finalDesc + "\n\n" + code
+					pairs.push(finalCode)
+				})
+				return "\n"+pairs.join("\n")
+			}
+		
+			return "\n"+data
+		}
+		
+		function insert(str, index, value) {
+			return str.substr(0, index) + value + str.substr(index)
+		}
+	</script><next-route-announcer style="position: absolute;"><template shadowrootmode="open"><div aria-live="assertive" id="__next-route-announcer__" role="alert" style="position: absolute; border: 0px; height: 1px; margin: -1px; padding: 0px; width: 1px; clip: rect(0px, 0px, 0px, 0px); overflow: hidden; white-space: nowrap; overflow-wrap: normal;">Vegas Admin</div></template></next-route-announcer></body></html>
